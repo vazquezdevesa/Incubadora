@@ -68,9 +68,6 @@ void loop()
   //Lee la humedad y la temperatura
   float hum = dht.readHumidity();
   float tem = dht.readTemperature();
-
-  char temp = tem;
-  char humi = hum;
   
   lcd.clear();
   lcd.setCursor(0,0);
