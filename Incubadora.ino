@@ -6,8 +6,8 @@
 
 //SENSOR TEMPERATURA
 #define DHTPIN 4     // Define pin 4 para el sensor
-#define DHTTYPE DHT22   // DHT 22  (AM2302)
-DHT dht(DHTPIN, DHTTYPE);   // Initialize DHT sensor for normal 16mhz Arduino
+#define DHTTYPE DHT22   
+DHT dht(DHTPIN, DHTTYPE);
 
 //LCD
 LiquidCrystal_I2C lcd(0x3F,16,2);
