@@ -88,14 +88,14 @@ void loop()
   Serial.println(" %");
 
   //Activa la Resistencia si la temperatura es menor de 37,6
-   if (tem < 37,6)
-   digitalWrite(RELESOL, HIGH);
-   else digitalWrite(RELESOL, LOW);
+   if (tem < 37,6){
+   digitalWrite(RELESOL, HIGH);}
+   else {digitalWrite(RELESOL, LOW);}
 
   //Activa la valvula si la humedad es menor de 50
-   if (hum < 50)
-   digitalWrite(RELEVAL, HIGH);
-   else digitalWrite(RELEVAL, LOW);
+   if (hum < 50){
+   digitalWrite(RELEVAL, HIGH);}
+   else {digitalWrite(RELEVAL, LOW);}
  
   //Encender Led en función del valor leido
   if (Boton == HIGH) {
