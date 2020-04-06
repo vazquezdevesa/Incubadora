@@ -72,11 +72,11 @@ void loop()
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print("Temp: ");
-  lcd.print(temp,1);
+  lcd.print(tem);
   lcd.print(" C");
   lcd.setCursor(0,1);
   lcd.print("Hum:  ");
-  lcd.print(humi,1);
+  lcd.print(hum);
   lcd.print(" %");
 
   Serial.print("Temp: ");
